@@ -20,3 +20,10 @@ mediaani = statistics.median(numbers)
 moodi = statistics.mode(numbers)
 
 print(f"Smallest one is {str(smallest)}. Biggest one is {str(biggest)}. Mean is {str(mean)}. Median is {str(mediaani)} and mode is {str(moodi)}.")
+
+#joutava lisuke gittiharjoitteluna
+valinta = input("Suljetaanko ohjelma? kyllä/ei")
+if valinta == "kyllä":
+    print("heihei")
+else:
+    print("Suljetaan silti. heihei")
